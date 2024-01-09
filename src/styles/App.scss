@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  font-weight: 900;
+  color: #222;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #f9fbf8;
+}
+  
+@media screen and (min-width: 600px) {
+  h1 {
+    font-size: 140px;
+    bottom: -130px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 180px;
+    bottom: -170px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  h1 {
+    font-size: 220px;
+    bottom: -200px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 280px;
+    bottom: -260px;
+  }
+}
+  
